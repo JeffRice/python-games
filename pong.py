@@ -23,7 +23,7 @@ pad_speed = 3
 
 # helper function that spawns a ball by updating the
 # ball's position vector and velocity vector
-77;10103;0c# if right is True, the ball's velocity is upper right, else upper left
+# if right is True, the ball's velocity is upper right, else upper left
 def ball_init(right):
     global ball_pos, vel # these are vectors stored as lists
     ball_pos = [WIDTH / 2, HEIGHT / 2]
