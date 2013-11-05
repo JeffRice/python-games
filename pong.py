@@ -1,4 +1,27 @@
-elper function that spawns a ball by updating the 
+# Implementation of classic arcade game Pong
+
+import simplegui
+import random
+
+# initialize globals - pos and vel encode vertical info for paddles
+WIDTH = 600
+HEIGHT = 400       
+BALL_RADIUS = 20
+PAD_WIDTH = 8
+PAD_HEIGHT = 80
+HALF_PAD_WIDTH = PAD_WIDTH / 2
+HALF_PAD_HEIGHT = PAD_HEIGHT / 2
+ball_pos = [WIDTH / 2, HEIGHT / 2]
+vel = [0, 0]
+paddle1_pos = [160, 240]
+paddle2_pos = [160, 240]
+paddle1_vel = [0, 0]
+paddle2_vel = [0, 0]
+score1 = 0
+score2 = 0
+pad_speed = 3
+
+# helper function that spawns a ball by updating the
 # ball's position vector and velocity vector
 77;10103;0c# if right is True, the ball's velocity is upper right, else upper left
 def ball_init(right):
