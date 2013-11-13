@@ -1,3 +1,4 @@
+# Try to stop the watch with 0 tenths of a second!
 # template for "Stopwatch: The Game"
 import simplegui
 import math
